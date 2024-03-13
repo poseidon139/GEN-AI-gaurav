@@ -1,0 +1,10 @@
+<div class="application-header">
+    <div class="page-header">
+        <div class="page-header-text">
+            <span id="app-page-header" class="header">{{ 'Databus Configurator for IED X' }}</span>
+        </div>
+    </div>
+    <div class="tabs-container">
+        <a *ngFor="let tab of tabs" class="tab" routerLink="{{tab.url}}" routerLinkActive="active" [class.active]="isActiveTab(tab)">{{ tab.name }}</a>
+    </div>
+</div>

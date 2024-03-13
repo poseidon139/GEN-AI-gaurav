@@ -1,0 +1,29 @@
+.application-header {
+    margin-top: 30px;
+
+    .header {
+        font-size: 25px;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-right: 10px;
+        color: #738796;
+    }
+}
+
+.tabs-container {
+    display: flex;
+    padding: 2rem;
+
+    .tab {
+        margin-left: 22px;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #738796;
+        &:hover,
+        &.active {
+            color: #2387aa;
+            border-bottom: 3px solid #2387aa;
+        }
+    }
+}

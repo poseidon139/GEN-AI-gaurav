@@ -1,0 +1,76 @@
+.container {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+
+    .topicPrompt {
+        margin-left: 6rem;
+    }
+}
+
+.userViewTable,
+.topicViewTable {
+    width: 30rem;
+    background-color:  #dfe5ed;;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.topicViewTable {
+    width: 50rem;
+}
+
+.mat-icon {
+    font-size: 20px;
+    color: #738796;
+    padding: 4px 0;
+
+    &:hover {
+        color: #2387aa;
+        transform: translateY(-2px);
+    }
+}
+
+tr:nth-child(even) {
+    background-color:  #dfe5ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #dfe5ed;
+    height: 30px;
+}
+
+td {
+    margin-right: 4px;
+}
+
+.actionColumn {
+    text-align: center;
+}
+
+.userColumn {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: rgb(233, 237, 241);
+}
+
+.userColumn .mat-icon {
+    padding-left: 80px;
+
+}
+
+.tdColumn {
+    padding-left: 15px;
+}

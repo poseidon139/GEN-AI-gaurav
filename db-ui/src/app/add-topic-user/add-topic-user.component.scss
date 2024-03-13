@@ -1,0 +1,30 @@
+.addTopicUser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe5ed;
+    font-size: bold;
+}
+
+h4 {
+    padding: 2px 10px;
+    font-size: 18px;
+    font-weight: 18px;
+    font-family: 'Font Awesome 6 Free';
+}
+
+.mat-icon {
+    margin-left: auto;
+    font-size: 25px;
+    color: #738796;
+    padding: 4px 20px;
+
+    &:hover {
+        color: #2387aa;
+        transform: translateY(-2px);
+    }
+}
+
+.header {
+    padding-top: 0.5rem;
+}

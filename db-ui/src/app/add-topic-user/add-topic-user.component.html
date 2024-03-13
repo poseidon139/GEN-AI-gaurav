@@ -1,0 +1,16 @@
+<div class="addTopicUser">
+    <div class="header">
+        <h4>Add {{header}}</h4>
+    </div>
+    <mat-icon (click)="onCloseClick()">close</mat-icon>
+</div>
+<div class="dialog-content">
+    <div class="form">
+        <form class="example-form" novalidate>
+            <mat-form-field class="example-full-width">
+                <input matInput type="text" id="food" name="food" ngModel required placeholder="Favorite food"
+                    value="Sushi">
+            </mat-form-field>
+        </form>
+    </div>
+</div>
